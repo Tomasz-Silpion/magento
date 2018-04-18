@@ -1,7 +1,7 @@
 {
     "name": "getresponse/magento2-module",
     "description": "GetResponse Integration for Magento2",
-    "version": "20.1.4",
+    "version": "20.1.5",
     "license": "OSL-3.0",
     "minimum-stability": "stable",
     "type": "magento2-module",
@@ -12,6 +12,7 @@
         ],
         "psr-4": {
             "GetResponse\\GetResponseIntegration\\": ""
-        }
+        },
+        "classmap": ["vendor/getresponse/magento2-module/GetResponseIntegration"]
     }
 }
